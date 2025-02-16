@@ -21,6 +21,27 @@
             color: #365888;
             font-size: .8em;
          }
+         .site {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border: 1px solid black;
+         }
+        .image {
+            <!-- max-width: 10%; -->
+            <!-- max-height:15%; -->
+            <!-- display: block; -->
+            float: right;
+            margin-left: auto;
+            padding-right: 1em;
+         }
+         .description {
+            padding-right: 1em;
+            padding-left: 1em;
+            float: left;
+         }
          td,th{
             border: 1px solid #CCC;
          }
@@ -53,7 +74,30 @@
 
          <p>In CIS-224, Introduction to Web Design, we learn how to build Web pages from the ground up, using Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS). As a final project, each student designs and builds his or her own Web site to showcase their skills.</p>
 
-         <h2>Check out our Students' work!</h2>
-<p><a href="../BGBistro/index.html" target="Black Goose Bistro"><img src="../BGBistro/blackgoose-logo.svg" width="100"></a><b>The Black Goose Bistro</b> &#8212; The Black Goose Bistro Web site is where we learned and practiced our skills.</p>
+   <div class="site">
+      <div class="description">
+         <p><b>The Black Goose Bistro</b><br> &#8212; Jennifer Robbins, the author of our text book <cite>Learning Web Design</cite>, provided us with several starter projects we could use to learn the basics of HTML and styling. The Black Goose Bistro Web site is where we learned and practiced our skills.</p>
+      </div>
+      <div class="image">
+         <a href="../BGBistro/index.html" target="Black Goose Bistro"><img src="../BGBistro/blackgoose-logo.svg" width="100"></a>
+      </div>
+   </div>
+   <div class="site">
+      <div class="description">
+         <p><b>First Student Web Site</b><br> &#8212; The first Web site description and link go here.</p>
+      </div>
+      <div class="image">
+         <img src="" alt="Image of site">
+      </div>
+   </div>
+   <div class="site">
+      <div class="description">
+         <p><b>Second Student Web Site</b><br> &#8212; The second and subsequent Web site descriptions and links go here.</p>
+      </div>
+      <div class="image">
+         <img src="" alt="Images of sites">
+      </div>
+   </div>
+
    </body>
 </html>
